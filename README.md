@@ -5,6 +5,8 @@ I developed a web application using Django to manage events and venues. This app
 
 The purpose of writing this software was to enhance my skills as a software engineer by building a fully functional web application. I aimed to apply my knowledge of Django and Bootstrap to create a user-friendly and efficient event management system.
 
+https://youtu.be/QEco1oSOVqI
+
 To start a test server on your computer:
 
 1. Navigate to the project directory in your terminal.
