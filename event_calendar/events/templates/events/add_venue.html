@@ -6,7 +6,9 @@
 <center>
 <h1> Add Venue</h1>
 </br></br>
-
+{% if submitted %}
+Your Venue was Submitted Succesfully!
+{% else %}
 <form action="" method=POST>
     {% csrf_token %}
     {{ form.as_p }}
@@ -14,6 +16,6 @@
 
 </form>
 
-
+{% endif %}
 </center>
 {% endblock %}
