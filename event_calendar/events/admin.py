@@ -5,6 +5,7 @@ from .models import Venue, Event, QuitusUser
 # admin.site.register(Venue)
 # admin.site.register(Event)
 admin.site.register(QuitusUser)
+
 @admin.register(Venue)
 class VenueAdmin(admin.ModelAdmin):
     list_display = ('name', 'address', 'phone')
